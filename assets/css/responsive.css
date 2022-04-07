@@ -1,0 +1,97 @@
+@media (max-width: 1100px){
+    main .our-houses {
+        grid-template-columns: repeat(2, 1fr) ; 
+    }
+    .you-need-wrapper {
+        width: 500px;
+        margin-top: 150px;
+        height: 300px;
+    }
+    .you-need img {
+        display: none;
+    }
+}
+
+@media (max-width: 750px){
+    header {
+        height: 140px;
+    }
+    .header-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+    nav {
+        width: auto;
+    }
+    nav ul li a {
+        width: 110px;
+    }
+    .logo img {
+        width: 200px;
+    }
+    nav ul li{
+        height: 30px;
+        width: 120px;
+        margin: 5px;
+    }
+    nav ul li a {
+        color: #FFF;
+        padding: 0px 5px;
+        font-size: 1rem;
+        border-bottom: none; 
+    }
+    main .banner {
+        background-image: url(../images/banner-mobile.png);
+        height: 550px;
+    }
+    main .article-banner p{
+        color: #000;
+    }
+
+    main .about p {
+        margin: 20px 50px;
+    }
+    main .article-banner {
+        width: 450px;
+        padding: 10px;
+        margin: 200px auto;
+        background: rgba(255, 255, 255, 0.638); 
+    }
+    main .our-houses {
+        grid-template-columns: repeat(1, 1fr) ; 
+    }
+    main .our-houses h2 {
+        font-size: 1.7rem;
+    }
+    .you-need-wrapper {
+        width: 370px;
+        position: relative;
+        margin: 200px auto auto auto;
+        padding: 20px;
+    }    
+    form {
+        width: 350px;
+    }
+}
+
+@media (max-width: 460px){
+    main .article-banner h1 {
+        font-size: 2rem;   
+        text-align: center; 
+    }
+    main .article-banner h1::after {
+        width: 150px;
+    }
+    main .article-banner {
+        width: 380px;
+    }
+    main .about h2 {
+        font-size: 1.5rem;
+    }
+    main .our-houses h2 {
+        font-size: 1.5rem;
+    }
+    main .our-house-wrapper h2 {
+        font-size: 1.5rem;
+    }
+}

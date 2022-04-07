@@ -1,0 +1,8 @@
+@media (max-width: 750px){
+    .thanks-main {
+        width: 370px;
+    }
+    main h1 {
+        font-size: 1.2rem;
+    }
+}

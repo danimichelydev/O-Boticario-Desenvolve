@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./assets/images/icon-lightblue.png">
+    <link rel="stylesheet" href="./assets/css/thanks.css">
+    <link rel="stylesheet" href="./assets/css/responsive-thanks.css">
+    
+    <title>Obrigada - Programa Desenvolve</title>
+  </head>
+  <body>
+      <header>
+        <section class="header-wrapper">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="Logo da F4Life">
+          </div>
+          <nav class="nav-thanks">
+            <ul>
+              <li><a href="index.html">Voltar ao site</a></li>
+            </ul>
+          </nav>
+        </section>   
+      </header>
+
+      <main class="thanks-main">
+          <h1>Obrigado pela mensagem, <span id="showName"></span>.</h1>
+          <p>Entraremos em contato o mais breve possível.</p>
+      </main>
+
+
+      <script>
+        let showName = document.getElementById("showName");
+        showName.innerHTML = localStorage.getItem("userName");
+      </script>
+  </body>
+</html>
