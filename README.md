@@ -86,7 +86,7 @@ Usei o desafio para desenvolver e aprimorar meus conhecimentos em construções 
 
 ```css
 <script>
-	let showName = document.getElementById("showName");
+    let showName = document.getElementById("showName");
     showName.innerHTML = localStorage.getItem("userName");
 </script>
 ```
@@ -101,17 +101,6 @@ Usei o desafio para desenvolver e aprimorar meus conhecimentos em construções 
 
 - GitHub - [Dani Michely dev](https://github.com/danimichelydev)
 
-- <script>
-          let showName = document.getElementById("showName");
-          showName.innerHTML = localStorage.getItem("userName");
-        </script>
-
-- <script>
-          let showName = document.getElementById("showName");
-          showName.innerHTML = localStorage.getItem("userName");
-        </script>
-
-- 
 
   
 
